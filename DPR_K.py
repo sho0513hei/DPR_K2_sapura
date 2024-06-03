@@ -17,7 +17,7 @@ st.set_page_config(page_title="Dashboard",
 #@st.cache_data  
 #def get_data_from_excel():
 df = pd.read_excel(
-    io='output.xlsx',
+    io='output_K.xlsx',
     engine='openpyxl',
     sheet_name='Sheet1',
     skiprows=0,
